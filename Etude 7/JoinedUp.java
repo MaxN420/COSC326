@@ -42,7 +42,7 @@ public class JoinedUp{
     findLinks(inputWord, new ArrayList<String>());
     
     //printing the results
-    System.out.println("------------");
+    System.out.println("-------------");
     for(int j = 0; j < singleLinkedOptions.get(0).size(); j++){
       System.out.println(singleLinkedOptions.get(0).get(j));
     }
